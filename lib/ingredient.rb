@@ -8,5 +8,4 @@ class Ingredient
     @unit = args[:unit]
     @calories = args[:calories]
   end
-
 end

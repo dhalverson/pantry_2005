@@ -18,8 +18,4 @@ class IngredientTest < Minitest::Test
     assert_equal "oz", ingredient1.unit
     assert_equal 50, ingredient1.calories
   end
-
-
-
-
 end
