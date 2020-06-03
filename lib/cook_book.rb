@@ -14,4 +14,11 @@ class CookBook
       recipe.ingredients.map { |ingredient| ingredient.name}
     end.uniq
   end
+
+  def highest_calorie_meal
+    @recipes.map do |recipe|
+      require "pry"; binding.pry
+      recipe.total_calories
+    end
+  end
 end
